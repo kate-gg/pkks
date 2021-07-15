@@ -10,10 +10,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+         <link href="https://cdn.lazywasabi.net/fonts/NotoSansThai/NotoSansThai.css" rel="stylesheet"/> 
          <link rel="preconnect" href="https://fonts.googleapis.com"/>
-         <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet"/>
+         <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"/>
         </Head>
-        <body style={{fontFamily: "'Bai Jamjuree', sans-serif"}}>
+        <body style={{fontFamily: "'Noto Sans Thai', 'PT Sans', sans-serif"}}>
           <Main />
           <NextScript />
         </body>
